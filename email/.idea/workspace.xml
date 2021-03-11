@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78b52ec4-bdff-4acf-ac80-f0a8cd11d037" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/send_email.py" afterDir="false" />
-    </list>
+    <list default="true" id="78b52ec4-bdff-4acf-ac80-f0a8cd11d037" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/send_email.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../animation" />
   </component>
   <component name="RunManager">
     <configuration name="send_email" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
