@@ -1,14 +1,30 @@
 #include <stdio.h>
 
-int main(){
+void print (int res)
+{
+    switch (res)
+        {
+            case 1:
+                printf("OK");
+                break;
+            case 2:
+                printf("Not OK");
+                break;
+            
+            default:
+                printf("Default");
+                break;
+        }
+        printf ("\n");
+}
 
-    int x = 14, y = 8, res, user;
-    scanf("%d", &user);
-
-    res = user + x + y; 
-
-    printf ("Res = %d\n", res);
-    printf ("Your res is\n", res);
-
+int main()
+{
+    int res;
+    for (int i = 0; i < 3; i++)
+    {
+        scanf ("%d", &res);  
+        print (res);  
+    }
     return 0;
 }
