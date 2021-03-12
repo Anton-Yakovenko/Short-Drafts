@@ -1,6 +1,6 @@
 
-- login: your_login
+- login: your_login    # "you@example.com"
 - password: your_password 
 
-- recipient: recipient_login
+- recipient: recipient_login     # "he@example.com"
 
