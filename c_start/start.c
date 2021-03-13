@@ -12,35 +12,48 @@ void input(float *num1, float *num2)
 }
 
 
-int main()
+void calculator (char choice)
 {
-    char choice;
     float num1, num2, res;
-
-    printf("Welcome! \nPlease choose option: sum(S), difference(D), multiplication(M), division(V)\nS/D/M/V: ");
-    scanf("%c", &choice);
-
     input(&num1, &num2);
 
-    if (choice == 'S')
+    if (choice == '+')
         res = num1 + num2;
 
-    else if (choice == 'D')  
+    else if (choice == '-')  
         res = num1 - num2;
 
-    else if (choice == 'M')
+    else if (choice == '*')
         res = num1 * num2;
     
-    else if (choice = 'V')
+    else if (choice == '/')
         res = num1 / num2;
 
     else
     {
         res = 0;
-        printf("unknown choice - %c", choice);
+        printf("unknown choice - %c\n", choice);
     }
 
     printf("res = %.2f\n", res);
+}
+
+int main()
+{   
+    char choice;
+    printf("Welcome! \n");
+
+    do
+    {   
+        printf("Please choose option: sum(+), difference(-), multiplication(*), division(/), quit(Q)\nYour choice: ");
+        scanf(" %c", &choice);
+
+        if (choice != 'Q')
+            calculator(choice);    
+
+    } while (choice != 'Q');
+
+    printf("Bye!\n");
 
     return 0;
 }
